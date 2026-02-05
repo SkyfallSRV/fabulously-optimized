@@ -1,12 +1,12 @@
-name = "Fabulously Optimized"
-author = "robotkoer"
+name = "Skyfall Survival"
+author = "tay"
 version = "12.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fd08ccaa8f7493c373d8d9c5acd69ad0cfb7e7c0909aa1739958ab2dce6f4863"
+hash = "74b4f130739206bae7ff3d98b39f749cfc2a1c96c19b12414f91be9479020ac1"
 
 [versions]
 fabric = "0.18.4"

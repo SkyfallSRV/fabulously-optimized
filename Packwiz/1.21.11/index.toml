@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
-hash = "f6e7fd1a6ada739da42d8cb8395232b28595fb7b74fc3c990d1947a3ef3a79cc"
+hash = "23c102be094311f17b02887eceb6abe1d6d19c655e6065ebb8b35e15bee80ba2"
 
 [[files]]
 file = "config/crash_assistant/crash_assistant_localization_overrides/be_by.json"
@@ -78,7 +78,7 @@ hash = "0ed7aa0be6579864e43fac26885a1807fc9addd27ff42ff3543cbe2b97fc2179"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "aaae8c42dd7f23c41f041892a7cddd272132213c0dd95db3bf7cf2c5fa507fc1"
+hash = "13858f6826e71d206ff093978d840d736ec0fc957d0f4848cd6a1e6b6a49c75e"
 
 [[files]]
 file = "config/modpack_defaults/config/NoChatReports/NCR-Client.json"
@@ -106,7 +106,7 @@ hash = "057e9e53790394db8b700616de3c235b0af3dc12fe7731a66ad20026acb9d991"
 
 [[files]]
 file = "config/modpack_defaults/config/crash_assistant/config.toml"
-hash = "f6e7fd1a6ada739da42d8cb8395232b28595fb7b74fc3c990d1947a3ef3a79cc"
+hash = "23c102be094311f17b02887eceb6abe1d6d19c655e6065ebb8b35e15bee80ba2"
 
 [[files]]
 file = "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/be_by.json"
@@ -202,7 +202,7 @@ hash = "3f5878535aacbfea79ae6da2f9142963f5662af3141692f0ba945767c9096ce5"
 
 [[files]]
 file = "config/modpack_defaults/config/isxander-main-menu-credits.json"
-hash = "aaae8c42dd7f23c41f041892a7cddd272132213c0dd95db3bf7cf2c5fa507fc1"
+hash = "13858f6826e71d206ff093978d840d736ec0fc957d0f4848cd6a1e6b6a49c75e"
 
 [[files]]
 file = "config/modpack_defaults/config/lambdynlights.toml"
@@ -314,6 +314,11 @@ hash = "1ab2a6ac0ad703dc27e4fd7e6355320f8cb24367b42b7872ac658e1992b8a508"
 metafile = true
 
 [[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "2a43dfcad0cedf1f0859de1af003c21f57565f423c16cfd994168b62fe2b65a0"
+metafile = true
+
+[[files]]
 file = "mods/entity_model_features.pw.toml"
 hash = "c9e16da01642c0a107b6ee9c9447e57dc9382cddb92d39c677218341d39a1139"
 metafile = true
@@ -346,6 +351,11 @@ metafile = true
 [[files]]
 file = "mods/fastquit.pw.toml"
 hash = "ef3621d29fd8d8f11c84ed5a12502fcf9dec10b17748d0f5912a2844e0464332"
+metafile = true
+
+[[files]]
+file = "mods/female-gender.pw.toml"
+hash = "bdb4cb836bd1f0c77b922fa15f655866f50dcd24a2d9b72bea170b6602862e57"
 metafile = true
 
 [[files]]
@@ -424,6 +434,11 @@ hash = "b90549e496b068853f67c5486c5befb54cd0e11cb3cc1162cfadfec1b1fed354"
 metafile = true
 
 [[files]]
+file = "mods/player-animation-library.pw.toml"
+hash = "0aa9217ccde6293ee29534dbe650fca7c0224d139542b8cccb8f576fe788f285"
+metafile = true
+
+[[files]]
 file = "mods/polytone.pw.toml"
 hash = "9f1d56736dd221054d0c86749128366fc2fb3f720e2ec0b77f400892e4cbbde1"
 metafile = true
@@ -444,6 +459,11 @@ hash = "cf86421945979fa0c512a8c5ef212177db28a3de17d4d0b36021c91da3543991"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "f32e1db7fd9d5c5677b32c07d8161ae94e1d6ee31f7093df35e012c99f569491"
+metafile = true
+
+[[files]]
 file = "mods/skyboxify.pw.toml"
 hash = "af80a45db8c80c70745b608fca04e2890a2ca2eac3a4cf49891451b9d66b078e"
 metafile = true
@@ -461,6 +481,16 @@ metafile = true
 [[files]]
 file = "mods/sspb.pw.toml"
 hash = "02b501d90c32539cf2bb25204bbc8d68c227ebed4fbeafc1e8b3c75c5aa075b4"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "8f86a9c3191e5181d62112cf5473e3d7c3d584aff8e161d25e3d9e65f20cc09e"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "4379cc99b21fff1c200ade2fe21ef25b2355aa52738946bd27eae74d51d19f9d"
 metafile = true
 
 [[files]]

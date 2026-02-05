@@ -33,7 +33,7 @@ jobs:
            game-versions: ${{ vars.MC_VERSION }}
 
   publish-to-modrinth:
-    if: github.repository_owner == 'Fabulously-Optimized'
+    if: github.repository_owner == 'SkyfallSRV'
     runs-on: ubuntu-24.04
     timeout-minutes: 30
     environment: github-actions
@@ -57,7 +57,7 @@ jobs:
          run: |
            chmod +x ./packwiz
            pushd Packwiz/${VARS_MC_VERSION}
-           ../../packwiz modrinth export -o ../../Fabulously.Optimized-${GITHUB_REF_NAME}.mrpack
+           ../../packwiz modrinth export -o ../../Skyfall.Survival-${GITHUB_REF_NAME}.mrpack
            popd
          env:
            VARS_MC_VERSION: ${{ vars.MC_VERSION }}
@@ -65,7 +65,7 @@ jobs:
          id: attest-mrpack
          uses: actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a # 3.0.0
          with:
-          subject-path: Fabulously.Optimized-${{ github.ref_name }}.mrpack
+          subject-path: Skyfall.Survival-${{ github.ref_name }}.mrpack
        - name: Copy and zip attestation
          run: |
            cp ${STEPS_ATTEST_MRPACK_OUTPUTS_BUNDLE_PATH} cosign-bundle.json
@@ -80,13 +80,13 @@ jobs:
            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
            modrinth-unfeature-mode: none
            files: |
-             Fabulously.Optimized-${{ github.ref_name }}.mrpack
+             Skyfall.Survival-${{ github.ref_name }}.mrpack
              cosign-bundle.zip
            loaders: fabric
            game-versions: ${{ vars.MC_VERSION }}
        - name: Upload to Github
          uses: Shopify/upload-to-release@c77c9b3e5d288adaef98a7007bf92340ec6ce03b # 2.0.0
          with:
-           name: Fabulously.Optimized-${{ github.ref_name }}.mrpack
-           path: Fabulously.Optimized-${{ github.ref_name }}.mrpack
+           name: Skyfall.Survival-${{ github.ref_name }}.mrpack
+           path: Skyfall.Survival-${{ github.ref_name }}.mrpack
            repo-token: ${{ secrets.GITHUB_TOKEN }}
