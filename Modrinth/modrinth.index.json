@@ -245,6 +245,21 @@
             "fileSize": 603622
         },
         {
+            "path": "mods/emotecraft-fabric-for-MC1.21.11-3.2.0-b.build.142.jar",
+            "hashes": {
+                "sha1": "3d1761b45088844d04b57d3998d119de609cfbf2",
+                "sha512": "1d0aa521b9446b92ded660f24c814dfb171553461a9cbbee8bed3d70fbf8801a82b6e2c36bd2fa5aee3c8a3ef822b3f5c8982b0b8373d50def393c1a358ca513"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/pZ2wrerK/versions/YRjJCgXF/emotecraft-fabric-for-MC1.21.11-3.2.0-b.build.142.jar"
+            ],
+            "fileSize": 1121300
+        },
+        {
             "path": "mods/entity_model_features_1.21.11-fabric-3.0.10.jar",
             "hashes": {
                 "sha1": "f9e8abe9d5768f18791e7fcd9afa05b72c4561a5",
@@ -348,6 +363,21 @@
                 "https://cdn.modrinth.com/data/x1hIzbuY/versions/ip2tVKLp/fastquit-3.1.3%2Bmc1.21.11.jar"
             ],
             "fileSize": 61123
+        },
+        {
+            "path": "mods/Female-Gender-Mod-fabric-5.0.0-Beta.2+1.21.11.jar",
+            "hashes": {
+                "sha1": "240de64c5e6a560348841763ff3ff0eb0eb003e2",
+                "sha512": "1c84eecc4bc950644a38ff72328ab8e10f3fc3d05a4150611a24e2ca7ddfd1decb070c38c695e1e4c785e7dbcc23591e7a8a8fc20e5a643047ea949893d2b621"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/bcOsQHnC/versions/wxfN7iwN/Female-Gender-Mod-fabric-5.0.0-Beta.2%2B1.21.11.jar"
+            ],
+            "fileSize": 1238465
         },
         {
             "path": "mods/ferritecore-8.2.0-fabric.jar",
@@ -530,6 +560,21 @@
             "fileSize": 80039
         },
         {
+            "path": "mods/PlayerAnimationLibFabric-1.1.6+mc.1.21.11.jar",
+            "hashes": {
+                "sha1": "50fb6e9e24c70d0a28230384ef2e0034c6236ef2",
+                "sha512": "9cb70870062773f6da47b4ff3885546b020efe8e2cfe1b27c2c8aaa25ba0405a64201ae283b7a02ada6d3c3be3ace9a16568e2b905d86b739079fcc085088cb8"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/ha1mEyJS/versions/97vS1xaQ/PlayerAnimationLibFabric-1.1.6%2Bmc.1.21.11.jar"
+            ],
+            "fileSize": 1153316
+        },
+        {
             "path": "mods/polytone-1.21.11-5.4.0-fabric.jar",
             "hashes": {
                 "sha1": "e5b1d10b40abdef33e642b0e5fcae09f4407afdc",
@@ -590,6 +635,21 @@
             "fileSize": 197799
         },
         {
+            "path": "mods/voicechat-fabric-1.21.11-2.6.11.jar",
+            "hashes": {
+                "sha1": "649080efc42624b06edd3896956605039eabeab2",
+                "sha512": "2ddab762110037616ef55403f97dfb4fa6df7c37bc12554a6f4d4bb40cebe102ff671c4876bb3cb0f98ad2542f414b079a6e48aa20656c9a13c4bfbdf908b534"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/9eGKb6K1/versions/1OVXKX2W/voicechat-fabric-1.21.11-2.6.11.jar"
+            ],
+            "fileSize": 5564453
+        },
+        {
             "path": "mods/skyboxify-2.3+1.21.11-fabric.jar",
             "hashes": {
                 "sha1": "0d8e47ea2439c6d855f97e6d0f9c0b0c13516f10",
@@ -648,6 +708,36 @@
                 "https://cdn.modrinth.com/data/EIa1eiMm/versions/LpF3DIUM/sodium-shadowy-path-blocks-fabric-6.0.0.jar"
             ],
             "fileSize": 63459
+        },
+        {
+            "path": "mods/xaerominimap-fabric-1.21.11-25.3.7.jar",
+            "hashes": {
+                "sha1": "db8eb013c5e704873a6e02ad8ecbc461895cafb7",
+                "sha512": "5cd11be3edad1c255461ab0b2305824b45ea2acacfd76e929cfa23ed587e950526e3b91f99914f9d6e938d6f95dd6e5eb80f8c343202893acff13b7fe9503841"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/1bokaNcj/versions/GtzpTIYm/xaerominimap-fabric-1.21.11-25.3.7.jar"
+            ],
+            "fileSize": 2150826
+        },
+        {
+            "path": "mods/xaeroworldmap-fabric-1.21.11-1.40.8.jar",
+            "hashes": {
+                "sha1": "35638fedcb3527489f5f35778e7dd78de5492f36",
+                "sha512": "df3a2cbd29c642b775ce6c1dc7f9524b4b373d5f3e4896e1d1492f3df16f207135c4c07ba2d37302c45462b7cb3b405905abe55e26bfca422fd1346903bf9205"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/NcUtCpym/versions/qWTWHZMX/xaeroworldmap-fabric-1.21.11-1.40.8.jar"
+            ],
+            "fileSize": 1406730
         },
         {
             "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.11-fabric.jar",
