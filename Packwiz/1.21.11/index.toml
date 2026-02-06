@@ -516,3 +516,7 @@ hash = "c66a978f3093f7e002dc701f632e63579f3796438e59ddbdb618dc7288a251f0"
 file = "resourcepacks/Translations_for_Sodium.pw.toml"
 hash = "19f12ce351223ef988d2fe5cecaeff5d11d8e78bd3b7c8058130aa17fe58d4d8"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+hash = "e525ed7eb79a71ec8539f0e4a0ff4dedd51a99f81d81652bf9602c0553f0643d"
